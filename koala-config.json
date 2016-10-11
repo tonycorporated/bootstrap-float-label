@@ -1,0 +1,11 @@
+{
+  "mappings": [
+    {
+      "src": "scss",
+      "dest": "dist"
+    }
+  ],
+  "ignores": [
+    "node_modules"
+  ]
+}
