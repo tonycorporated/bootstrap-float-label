@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-float-label",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "description": "Pure CSS implementation of Float Label pattern for Bootstrap 4.",
   "repository": {
     "type": "git",
