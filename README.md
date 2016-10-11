@@ -3,7 +3,7 @@ Bootstrap Float Label
 
 Pure CSS implementation of Float Label pattern for Bootstrap 4 powered by [Float Label CSS-only](https://github.com/tonystar/float-label-css).
 
-<img src="https://cdn.rawgit.com/tonystar/bootstrap-float-label/master/bootstrap-float-label.png" width="432"/>
+<img src="https://cdn.rawgit.com/tonystar/bootstrap-float-label/aced600/bootstrap-float-label.png" width="432"/>
 
 
 ## Demo
@@ -15,7 +15,7 @@ https://codepen.io/tonystar/pen/LRdpYZ
 
 Include `bootstrap-float-label.min.css`:
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v1.0.0/dist/bootstrap-float-label.min.css"/>
+<link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.0/dist/bootstrap-float-label.min.css"/>
 ```
 
 Then just add `.has-float-label` class to `.form-group`:
