@@ -6,6 +6,11 @@ Pure CSS implementation of Float Label pattern for Bootstrap 4 powered by [Float
 <img src="https://cdn.rawgit.com/tonystar/bootstrap-float-label/master/bootstrap-float-label.png" width="432"/>
 
 
+## Demo
+
+https://codepen.io/tonystar/pen/LRdpYZ
+
+
 ## Usage
 
 Include `bootstrap-float-label.min.css`:
