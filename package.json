@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tonystar/bootstrap-float-label/issues"
   },
-  "homepage": "https://github.com/tonystar/bootstrap-float-label#readme"
+  "homepage": "https://github.com/tonystar/bootstrap-float-label#readme",
+  "dependencies": {
+    "float-label-css": "1.0.0"
+  }
 }
