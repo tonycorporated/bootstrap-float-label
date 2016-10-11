@@ -23,5 +23,8 @@
   "homepage": "https://github.com/tonystar/bootstrap-float-label#readme",
   "dependencies": {
     "float-label-css": "1.0.0"
+  },
+  "devDependencies": {
+    "bootstrap": "4.0.0-alpha.4"
   }
 }
