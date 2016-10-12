@@ -3,6 +3,8 @@ Bootstrap Float Label
 
 Pure CSS implementation of Float Label pattern for Bootstrap 4 powered by [Float Label CSS-only](https://github.com/tonystar/float-label-css).
 
+[Switch to Bootstrap 3](https://github.com/tonystar/bootstrap-float-label/tree/v3-dev)
+
 <img src="https://cdn.rawgit.com/tonystar/bootstrap-float-label/aced600/bootstrap-float-label.png" width="432"/>
 
 
