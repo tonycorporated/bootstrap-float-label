@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="dist/bootstrap-float-label.css"/>
 </head>
-<body class="bg-faded p-x-1 p-y-3">
-  <form class="card card-block m-x-auto" style="max-width: 25rem">
-    <legend class="m-b-1 text-xs-center">Sign up</legend>
+<body style="padding: 3rem 1rem">
+  <form class="well center-block" style="max-width: 35rem">
+    <legend class="text-center">Sign up</legend>
     <div class="form-group input-group">
       <span class="has-float-label">
         <input class="form-control" id="first" type="text" placeholder="Name"/>
@@ -33,21 +33,19 @@
       <label for="password">Password</label>
     </div>
     <div class="form-group has-float-label">
-      <select class="form-control custom-select" id="country">
+      <select class="form-control" id="country">
         <option selected>United States</option>
         <option>Canada</option>
         <option>...</option>
       </select>
       <label for="country">Country</label>
     </div>
-    <div class="form-group">
-      <label class="custom-control custom-checkbox">
-        <input class="custom-control-input" type="checkbox"/>
-        <span class="custom-control-indicator"></span>
-        <span class="custom-control-description">Subscribe to newsletter</span>
+    <div class="form-group checkbox">
+      <label>
+        <input type="checkbox"/> Subscribe to newsletter
       </label>
     </div>
-    <div class="text-xs-center">
+    <div>
       <button class="btn btn-block btn-primary" type="submit">Sign up</button>
     </div>
   </form>

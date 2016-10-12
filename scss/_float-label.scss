@@ -3,7 +3,7 @@
 
   @include float-label {
     top: -.5em;
-    left: $input-padding-x;
+    left: $padding-base-horizontal;
     z-index: 3;
     line-height: 1;
     padding: 0 1px;
@@ -26,6 +26,7 @@
 
     @include float-label-scaled {
       top: .3em;
+      font-weight: normal;
     }
   }
 }
@@ -34,7 +35,7 @@
   display: table-cell;
 
   .form-control {
-    @include border-radius($input-border-radius);
+    border-radius: $input-border-radius;
   }
 
   &:not(:last-child) .form-control {
