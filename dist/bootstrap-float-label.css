@@ -10,7 +10,7 @@
     -webkit-transition: all .2s;
             transition: all .2s;
     top: -.5em;
-    left: 0.75rem;
+    left: 12px;
     z-index: 3;
     line-height: 1;
     padding: 0 1px; }
@@ -33,12 +33,13 @@
   .has-float-label .form-control:placeholder-shown:not(:focus) + label {
     font-size: 150%;
     opacity: .5;
-    top: .3em; }
+    top: .3em;
+    font-weight: normal; }
 
 .input-group .has-float-label {
   display: table-cell; }
   .input-group .has-float-label .form-control {
-    border-radius: 0.25rem; }
+    border-radius: 4px; }
   .input-group .has-float-label:not(:last-child) .form-control {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
@@ -46,5 +47,3 @@
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     margin-left: -1px; }
-
-/*# sourceMappingURL=bootstrap-float-label.css.map */
