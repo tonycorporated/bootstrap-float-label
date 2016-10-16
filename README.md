@@ -1,7 +1,9 @@
 Bootstrap Float Label
 =====================
 
-Pure CSS implementation of Float Label pattern for Bootstrap 4 powered by [Float Label CSS-only](https://github.com/tonystar/float-label-css).
+> Now part of [Bootstrap Kit](https://bootstrap-kit.highweb.tech/)!
+
+Pure CSS implementation of Float Label pattern for **Bootstrap 4** powered by [Pure-CSS Float Label](https://github.com/tonystar/float-label-css).
 
 [Switch to Bootstrap 3](https://github.com/tonystar/bootstrap-float-label/tree/v3-dev)
 
@@ -47,4 +49,4 @@ Using inside `.input-group` is also supported:
 
 ## Browser support
 
-ANY browser. See [Float Label CSS-only docs](https://github.com/tonystar/float-label-css#browser-support) for more details.
+ANY browser. See [Pure-CSS Float Label docs](https://github.com/tonystar/float-label-css#browser-support) for more details.
