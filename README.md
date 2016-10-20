@@ -25,26 +25,26 @@ Include `bootstrap-float-label.min.css`:
 <link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v4.0.0/dist/bootstrap-float-label.min.css"/>
 ```
 
-Then just add `.has-float-label` class to `.form-group`:
+Then just add `.has-float-label` class to `.form-group` <sup>**v4.0.1+**</sup>:
 ```html
-<span class="form-group has-float-label">
-  <input class="form-control" id="email" type="email" placeholder="email@example.com"/>
-  <label for="email">Email</label>
-</span>
+<label class="form-group has-float-label">
+  <input class="form-control" type="email" placeholder="email@example.com"/>
+  <span>Email</span>
+</label>
 ```
 
-**NOTE:** `label` should go after `input`! This is the only drawback in this method.
+**NOTE:** `<input>` should be inside `<label>` and `<span>` should go after `<input>`. [Why?](https://github.com/tonystar/float-label-css#usage)
 
 Using inside `.input-group` is also supported:
 ```html
 <div class="form-group input-group">
   <span class="has-float-label">
-    <input class="form-control" id="first" type="text" placeholder="Name"/>
-    <label for="first">First</label>
+    <input class="form-control" type="text" placeholder="Name"/>
+    <label>First</label>
   </span>
   <span class="has-float-label">
-    <input class="form-control" id="last" type="text" placeholder="Surname"/>
-    <label for="last">Last</label>
+    <input class="form-control" type="text" placeholder="Surname"/>
+    <label>Last</label>
   </span>
 </div>
 ```
