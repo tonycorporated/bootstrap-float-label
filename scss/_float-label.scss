@@ -37,11 +37,13 @@
     @include border-radius($input-border-radius);
   }
 
+  &:not(:last-child),
   &:not(:last-child) .form-control {
     @include border-right-radius(0);
+    border-right: 0;
   }
+  &:not(:first-child),
   &:not(:first-child) .form-control {
     @include border-left-radius(0);
-    margin-left: -1px;
   }
 }
