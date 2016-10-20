@@ -38,14 +38,14 @@ Then just add `.has-float-label` class to `.form-group` <sup>**v4.0.1+**</sup>:
 Using inside `.input-group` is also supported:
 ```html
 <div class="form-group input-group">
-  <span class="has-float-label">
+  <label class="has-float-label">
     <input class="form-control" type="text" placeholder="Name"/>
-    <label>First</label>
-  </span>
-  <span class="has-float-label">
+    <span>First</span>
+  </label>
+  <label class="has-float-label">
     <input class="form-control" type="text" placeholder="Surname"/>
-    <label>Last</label>
-  </span>
+    <span>Last</span>
+  </label>
 </div>
 ```
 
