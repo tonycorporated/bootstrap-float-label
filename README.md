@@ -4,7 +4,7 @@ Bootstrap Float Label
 [![npm version](https://img.shields.io/npm/v/bootstrap-float-label.svg)](https://www.npmjs.com/package/bootstrap-float-label)
 [![codepen](https://img.shields.io/badge/code-pen-d3d3d3.svg)](https://codepen.io/tonystar/pen/LRdpYZ)
 
-> Now part of [Bootstrap Kit](https://bootstrap-kit.highweb.tech/)!
+> Now part of [Bootstrap Kit](https://bootstrap-kit.com/)!
 
 Pure CSS implementation of Float Label pattern for **Bootstrap 4** powered by [Pure-CSS Float Label](https://github.com/tonystar/float-label-css).
 
