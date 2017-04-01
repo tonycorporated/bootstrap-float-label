@@ -33,7 +33,29 @@
   -webkit-transition: all .2s;
           transition: all .2s;
 }
+.has-float-label .form-control::-moz-placeholder {
+  opacity: 1;
+  transition: all .2s;
+}
+.has-float-label .form-control:-ms-input-placeholder {
+  opacity: 1;
+  transition: all .2s;
+}
+.has-float-label .form-control::placeholder {
+  opacity: 1;
+  -webkit-transition: all .2s;
+          transition: all .2s;
+}
 .has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus):-ms-input-placeholder {
+  opacity: 0;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)::placeholder {
   opacity: 0;
 }
 .has-float-label .form-control:placeholder-shown:not(:focus) + * {
@@ -43,9 +65,27 @@
 }
 
 .input-group .has-float-label {
-  display: table-cell;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .input-group .has-float-label .form-control {
+  width: 100%;
   border-radius: 0.25rem;
 }
 .input-group .has-float-label:not(:last-child), .input-group .has-float-label:not(:last-child) .form-control {
