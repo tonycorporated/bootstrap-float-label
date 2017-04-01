@@ -21,10 +21,7 @@
     "url": "https://github.com/tonystar/bootstrap-float-label/issues"
   },
   "homepage": "https://github.com/tonystar/bootstrap-float-label#readme",
-  "dependencies": {
-    "float-label-css": "1.0.1"
-  },
-  "devDependencies": {
+  "peerDependencies": {
     "bootstrap": "4.0.0-alpha.4"
   }
 }
