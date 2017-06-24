@@ -1,6 +1,7 @@
 .has-float-label {
+  display: block;
   position: relative; }
-  .has-float-label label {
+  .has-float-label label, .has-float-label > span {
     position: absolute;
     left: 0;
     top: 0;
@@ -14,7 +15,7 @@
     z-index: 3;
     line-height: 1;
     padding: 0 1px; }
-    .has-float-label label::after {
+    .has-float-label label::after, .has-float-label > span::after {
       content: " ";
       display: block;
       position: absolute;
@@ -28,9 +29,25 @@
     opacity: 1;
     -webkit-transition: all .2s;
             transition: all .2s; }
+  .has-float-label .form-control::-moz-placeholder {
+    opacity: 1;
+    transition: all .2s; }
+  .has-float-label .form-control:-ms-input-placeholder {
+    opacity: 1;
+    transition: all .2s; }
+  .has-float-label .form-control::placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+            transition: all .2s; }
   .has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
     opacity: 0; }
-  .has-float-label .form-control:placeholder-shown:not(:focus) + label {
+  .has-float-label .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+    opacity: 0; }
+  .has-float-label .form-control:placeholder-shown:not(:focus):-ms-input-placeholder {
+    opacity: 0; }
+  .has-float-label .form-control:placeholder-shown:not(:focus)::placeholder {
+    opacity: 0; }
+  .has-float-label .form-control:placeholder-shown:not(:focus) + * {
     font-size: 150%;
     opacity: .5;
     top: .3em;
