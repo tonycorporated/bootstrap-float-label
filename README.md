@@ -17,7 +17,7 @@ https://codepen.io/tonystar/pen/ALaZrV
 
 Include `bootstrap-float-label.min.css`:
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v3.0.0/dist/bootstrap-float-label.min.css"/>
+<link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/bootstrap-float-label/v3.0.1/dist/bootstrap-float-label.min.css"/>
 ```
 
 Then just add `.has-float-label` class to `.form-group`:
